@@ -1,11 +1,16 @@
 import React from "react";
 import "./index.css";
-import MyButtonList from "./listener.js";
+import MyButtonList from "./init.js";
+import ResetBtn from "./reset.js";
+import ModeBtn from "./mode.js";
 
 function MyComponent() {
   return (
     <>
-      <button />
+      <MyButtonList />
+      <ResetBtn />
+      <ModeBtn />
+
       <div className="main-header">
         <div className="navbar">
           <ul className="nav-ul">
@@ -61,6 +66,12 @@ function MyComponent() {
           </button>
           <button id="button-4" value="Spock">
             <i className="far fa-hand-spock"></i>
+          </button>
+        </div>
+
+        <div className="reset">
+          <button id="reset" title="reset score">
+            <i className="fas fa-redo-alt"></i>
           </button>
         </div>
 

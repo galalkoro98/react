@@ -3,7 +3,7 @@
 // choices of the player and the values are objects that map the choices of the
 // computer to the result of the game.
 
-export const gameRules = {
+const gameRules = {
   Rock: {
     Rock: "draw",
     Scissors: "lose",
@@ -40,3 +40,5 @@ export const gameRules = {
     Spock: "draw",
   },
 };
+
+export default gameRules;
