@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./styles/style.css";
 import MyButtonList from "./init.js";
 import ResetBtn from "./reset.js";
 import ModeBtn from "./mode.js";
